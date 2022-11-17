@@ -34,6 +34,16 @@ class HomePage extends StatelessWidget {
           Row(children: [
             SizedBox(width: 80,),
             CircleButton(currentIcon: Icon(Icons.favorite), message: "See your favorite songs",),
+            Tooltip(
+              message: "Log out",
+              child: CircleAvatar(
+                radius: 20,
+                backgroundColor: Theme.of(context).colorScheme.secondary,
+                child: IconButton(icon: Icon(Icons.logout), onPressed: (() {
+                  context.read<SongProvider>().googleLogout();
+                }),),
+              ),
+            ),
             
             SizedBox(width: 80,),
           ], mainAxisAlignment: MainAxisAlignment.spaceEvenly,)

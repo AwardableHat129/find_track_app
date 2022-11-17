@@ -26,6 +26,20 @@ class Song {
     );
   }
 
+  Map<String, dynamic> toJson() 
+  {
+    return {
+      "title": title,
+      "album": album,
+      "artist": artist,
+      "date": date,
+      "imageURL": imageURL,
+      "appleMusicURL": appleMusicURL,
+      "spotifyURL": spotifyURL,
+      "generalURL": generalURL
+    };
+  }
+
 
 }
 

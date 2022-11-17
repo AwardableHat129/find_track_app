@@ -6,15 +6,17 @@ import 'package:provider/provider.dart';
 
 
 class FavoritesPage extends StatelessWidget {
-  const FavoritesPage({
+ 
+
+  FavoritesPage({
     Key? key,
     
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    
-    List songList = context.watch<SongProvider>().favoriteSongsList;
+    context.read<SongProvider>().getFavoriteSongs();
+     List<Song> songList = context.watch<SongProvider>().favoriteSongsList;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Your Favorites'),

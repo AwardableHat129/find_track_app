@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "48098963734",
+    "project_id": "findtrackapp-4b4a0",
+    "storage_bucket": "findtrackapp-4b4a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48098963734:android:9dec0476dbcd5556332037",
+        "android_client_info": {
+          "package_name": "com.example.practica_uno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48098963734-cu1pgmj97d2fvrvnq7hr3d2of15n99mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.practica_uno",
+            "certificate_hash": "b4f084343dceebc1f09210f69c617605dfe711ff"
+          }
+        },
+        {
+          "client_id": "48098963734-sgmtcpjbbhi0ik7futldipirrskr9csj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvEhAy_Q83r9LB0a9F8rD4y80oMD56cMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48098963734-sgmtcpjbbhi0ik7futldipirrskr9csj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
